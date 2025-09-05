@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> bg attachment</title>
+	<style>
+		.fix{
+			background-color: red;
+			background-image: url("c.jpg");
+			background-repeat: no-repeat;
+			background-position: center;
+			background-attachment: local;
+			height: 500px;
+			border-style: solid;
+			border-width: 7px;
+			border-color: black;
+		}
+		.scroll{
+			background:url("b.jpg") red no-repeat 30% 20% scroll;
+			height: 500px;
+			border: dashed 10px blue;
+		}
+	</style>
+</head>
+<body>
+    <p class="fix">
+    	Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text 
+    </p>
+    <p class="scroll">
+    	Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text 
+    </p>
+</body>
+</html>
